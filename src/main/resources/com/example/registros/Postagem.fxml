@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.registros.HomeController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="308.0" layoutY="51.0" text="Postagens">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Label>
+            <Button layoutX="82.0" layoutY="167.0" mnemonicParsing="false" onAction="#MudarParaPost" text="Home" />
+            <Button fx:id="cancelButton" layoutX="181.0" layoutY="167.0" mnemonicParsing="false" onAction="#cancelButton" text="Sair" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
